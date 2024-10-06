@@ -8,5 +8,29 @@
 <body>
     <h1>Welcome to My App</h1>
     <p>This is a simple application using Google Meet API.</p>
+
+    <div id="auth-result"></div>
+
+    <script>
+        // Function to get query parameters from URL
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Check if there's an authorization code in the URL
+        const authCode = getQueryParam('code');
+        
+        if (authCode) {
+            // Display the authorization code or send it to your server
+            document.getElementById('auth-result').innerHTML = 
+                `<p>Authorization Code: ${authCode}</p>`;
+            
+            // TODO: You can send this authorization code to your backend server to exchange it for an access token
+        } else {
+            document.getElementById('auth-result').innerHTML = 
+                '<p>No authorization code found. Please try again.</p>';
+        }
+    </script>
 </body>
 </html>
