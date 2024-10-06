@@ -1,0 +1,28 @@
+# Privacy Policy
+
+## Introduction
+
+[Your Company Name] is committed to protecting the privacy of our users. This privacy policy describes how we collect, use, and protect user data.
+
+## What Data We Collect
+
+We collect the following data:
+
+*   User name and email address
+*   Calendar data, including event titles, descriptions, and attendees
+
+## How We Use Data
+
+We use the data we collect to provide our calendar service. We do not share user data with third parties.
+
+## How We Store and Protect Data
+
+We store user data on our secure servers. We use encryption to protect user data.
+
+## How Users Can Access and Control Their Data
+
+Users can access and control their data by logging into their account.
+
+## Changes to This Policy
+
+We may update this policy from time to time. We will notify users of any changes.
